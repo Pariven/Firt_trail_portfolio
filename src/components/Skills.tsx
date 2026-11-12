@@ -32,7 +32,7 @@ function TiltCard({ children, className = "" }: { children: React.ReactNode; cla
 
 export default function Skills() {
   return (
-    <section id="skills" className="relative px-4 py-28 sm:px-8 md:py-36">
+    <section id="skills" className="relative overflow-x-clip px-4 py-28 sm:px-8 md:py-36">
       <div aria-hidden className="pointer-events-none absolute right-0 top-1/3 size-[500px] rounded-full bg-maroon/20 blur-[120px]" />
       <div className="relative mx-auto max-w-6xl">
         <SectionHeading index="02" eyebrow="Toolkit" title="Skills &" accent="stack" />

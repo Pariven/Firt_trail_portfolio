@@ -8,7 +8,7 @@ export default function Experience() {
   const { scrollYProgress } = useScroll({ target: ref, offset: ["start 0.75", "end 0.6"] });
 
   return (
-    <section id="experience" className="relative px-4 py-28 sm:px-8 md:py-36">
+    <section id="experience" className="relative overflow-x-clip px-4 py-28 sm:px-8 md:py-36">
       <div aria-hidden className="pointer-events-none absolute left-0 top-1/4 size-[480px] rounded-full bg-maroon/20 blur-[120px]" />
       <div className="relative mx-auto max-w-5xl">
         <SectionHeading index="04" eyebrow="Experience" title="Where I've" accent="worked" />

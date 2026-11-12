@@ -53,7 +53,7 @@
 }
 
 @layer base {
-  html { background: var(--color-ink); color-scheme: dark; }
+  html { background: var(--color-ink); color-scheme: dark; overflow-x: clip; }
   html.lenis, html.lenis body { height: auto; }
   .lenis.lenis-smooth { scroll-behavior: auto !important; }
   body {
