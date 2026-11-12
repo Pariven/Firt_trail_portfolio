@@ -17,7 +17,7 @@ function Card({ p, i, total, progress }: { p: Project; i: number; total: number;
     <div className="sticky top-20 flex items-start justify-center md:top-24" style={{ paddingTop: `${i * 18}px` }}>
       <motion.article
         style={{ scale }}
-        className="glass group relative w-full origin-top overflow-hidden rounded-[2rem] bg-ink-2/80 p-3 sm:p-4"
+        className="glass group relative w-full origin-top overflow-hidden rounded-[2rem] bg-ink-2 p-3 sm:p-4"
       >
         <div className="grid gap-5 md:grid-cols-[1.35fr_1fr] md:gap-8">
           <a

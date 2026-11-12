@@ -128,7 +128,7 @@ export default function Nav() {
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: -20, scale: 0.97 }}
             transition={{ duration: 0.35, ease: [0.22, 1, 0.36, 1] }}
-            className="glass fixed inset-x-3 top-20 z-40 rounded-3xl bg-ink/75 p-3 md:hidden"
+            className="glass fixed inset-x-3 top-20 z-40 rounded-3xl bg-ink/95 p-3 md:hidden"
           >
             {nav.map(({ id, label }, i) => (
               <motion.a
